@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	.all{
+		border: 1px solid black;
+		width: 500px;
+		height: 500px;
+	}
+	.header > img{
+		width: 200px;
+		height: 200px;
+	}
+	.top > table{
+		border: 1px solid black;
+		border-left-color: white;
+		border-right-color: white;
+		width: 500px;
+		text-align: center;
+	}
+	a{
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+
+	td:not(:last-child) {
+	border-right: 1px solid black;
+	}
+	
+	.right{
+		text-align: right;
+	}	
+	.center{
+		text-align: center;
+	}
+	.footer{
+		position: relative;
+		top: 50px;
+		left: 200px;
+		border-top: 1px solid black;
+		position: static;
+		right: 50px;
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+	<div class="all">
+		<div class="header">
+			<img src="lmg/logo.PNG">
+		</div>
+		<div class="top">
+			<table>
+				<tr>
+					<td><a href="#">1</a></td>
+					<td><a href="#">2</a></td>
+					<td><a href="#">3</a></td>
+					<td><a href="#">4</a></td>
+					<td><a href="#">5</a></td>
+				</tr>
+			</table>
+		</div>
+		<div class="middle">
+			<div>안녕</div>
+			<div class="right">반가워</div>
+			<div>안녕</div>
+			<div class="right">반가워</div>
+			<div class="center">대화가 끝났습니다</div>
+		</div>
+		<div class="footer">
+			20120 주민규
+		</div>
+	</div>
+</body>
+</html>
