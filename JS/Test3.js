@@ -57,9 +57,8 @@ while(true){
 }
 */
 
-
+/*
 const TARGET_STRING = "AAABBBCCC";
-
 let result = "";
 let nowCharacter = "";
 let nowCharacterCount = 0;
@@ -94,3 +93,4 @@ else {
 }
 
 console.log(result);
+*/
