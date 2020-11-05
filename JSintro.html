@@ -5,7 +5,21 @@
 
   <p>스크립트 전</p>
 
-    <script src="JS/Test5.js"></script>
+    <script>
+    // 배경을 붉은색으로 변경하기
+    document.body.style.background = "red";
+
+    // 1초 후 원상태로 복구하기
+    setTimeout(() => document.body.style.background = "yellow", 100);
+    setTimeout(() => document.body.style.background = "orange", 200);
+    setTimeout(() => document.body.style.background = "green", 300);
+    setTimeout(() => document.body.style.background = "blue", 400);
+    setTimeout(() => document.body.style.background = "purple", 500);
+    setTimeout(() => document.body.style.background = "", 600);
+    
+    
+    
+    </script>
   
 
   <p>스크립트 후</p>
