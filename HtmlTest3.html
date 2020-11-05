@@ -4,14 +4,41 @@
   <title>사슴에 관하여</title>
 </head>
 <body>
-  사슴에 관한 진실.
 </body>
-<script>
-  for(const elem of documnet.body.children){
-    alert(elem.text);
+<input type="text" id="color" value="qwe">
+<input type="button" value="change!"
+  onclick="backgroundColorChangeTocolorTextInput()">
+<input type="button" value="Red" onclick="showchangeRed()">
+<input type="button" value="Green" onclick="showchangeGreen()">
+<input type="button" value="Blue" onclick="showchangeBlue()">
+<script> 
+
+  function backgroundColorChangeTocolorTextInput(){
+    let typedColor = document.getElementById("color");
+    if(typedColor.value === "red" || typedColor.value === "blue" || typedColor.value === "yellow"){
+    alert(typedColor.value);
+    document.body.style.background = typedColor.value;
+    }
+    else {
+      alert("빨강, 파랑, 노랑중 하나의 색을 정해주세요");
+    }
   }
+
+
+
+
+
+
+  function showchangeRed(){
+    document.body.style.background = "Red";
+    }
+    
+  function showchangeGreen(){
+    document.body.style.background = "Green";
+    } 
+
+  function showchangeBlue(){
+    document.body.style.background = "Blue";
+    }
 </script>
-<a>
-  사슴은 아름다운 동물입니다.
-</a>
 </html>

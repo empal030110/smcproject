@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>사슴에 관하여</title>
+</head>
+<body>
+</body>
+<input type="text" id="color1" value="asdfqwer">
+<input type="text" id="color2" value="">
+<input type="text" id="color3" value="">
+<input type="button" value="change!"
+  onclick="backgroundColorChangeTocolorTextInput()">
+<script> 
+  function backgroundColorChangeTocolorTextInput(){
+    let typedColor1 = document.getElementById("color1");
+    let typedColor2 = document.getElementById("color2");
+    let typedColor3 = document.getElementById("color3");
+
+    setTimeout(() => document.body.style.background = typedColor1.value, 100);
+    setTimeout(() => document.body.style.background = typedColor2.value, 200);
+    setTimeout(() => document.body.style.background = typedColor3.value, 300);
+  }
+
+
+
+
+
+
+ 
+</script>
+</html>
