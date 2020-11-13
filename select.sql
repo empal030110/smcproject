@@ -213,7 +213,7 @@ WHERE
 
 
 -- COUNT, SUM, AVG, MIN, MAX 
--- 개수 ,  합, 평균, 최대, 최소
+-- 개수 ,  합, 평균, 최소, 최대
 -- 예) SELECT SUM(PRICE) FROM PRODUCT;
 
 -- 문제 14.
